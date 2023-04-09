@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Lanny Shop</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Beranda</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Produk</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Tentang</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Kontak</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="login.html" class="nav__link">Masuk / Daftar</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+
+                <img src="assets/img/nav-img.png" alt="nav image" class="nav__img">
+            </div>
+
+            <!--Toggle button-->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__shape-small"></div>
+            <div class="home__shape-big"></div>
+            <img src="assets/img/shape-bg.png" alt="" class="home__shape-bg">
+
+            <div class="home__container container">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Selamat datang di
+                        <span>Lanny</span>
+                        Shop
+                    </h1>
+                    <p class="home__description">
+                        Dapatkan buah segar <br>dengan hasil 
+                        panen terbaik.
+                    </p>
+                    <a href="#" class="home__button">
+                        Berikutnya
+                    </a>
+                </div>
+
+                <div class="home__images">
+                    <img src="assets/img/liquid-fruit.png" alt="liquid image" class="home__liquid">
+
+                    <div class="home__basket-animate">
+                        <img src="assets/img/basket.png" alt="basket image" class="home__basket">
+                    </div>
+
+                    <img src="assets/img/pepaya.png" alt="pepaya image" class="home__pepaya">
+                    <img src="assets/img/semangka.png" alt="semangka image" class="home__semangka">
+
+                    <div>
+                        <img src="assets/img/leaf.png" alt="" class="home__leaf">
+                        <img src="assets/img/leaf.png" alt="" class="home__leaf">
+                        <img src="assets/img/leaf.png" alt="" class="home__leaf">
+                        <img src="assets/img/leaf.png" alt="" class="home__leaf">
+                        <img src="assets/img/leaf.png" alt="" class="home__leaf">
+                        <img src="assets/img/leaf.png" alt="" class="home__leaf">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== GSAP ===============-->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
